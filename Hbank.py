@@ -1,4 +1,4 @@
-balance = 0  # starting balance
+balance = 0  
 
 
 def deposit(amount):
