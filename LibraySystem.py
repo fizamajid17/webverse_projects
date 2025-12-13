@@ -11,7 +11,7 @@ class Book:
 
 class Library:
     def __init__(self):
-        self.books = []   # composition (Library contains Book objects)
+        self.books = []   
 
     def add_book(self, book):
         self.books.append(book)
@@ -30,9 +30,7 @@ class Library:
         return lib
 
 
-# ------------------------
-# Using the classes
-# ------------------------
+
 
 books_data = [
     {"title": "AI Guide", "author": "Sara", "price": 700},
